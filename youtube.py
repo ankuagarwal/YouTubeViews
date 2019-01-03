@@ -10,6 +10,7 @@ from core.browser import Browser
 from argparse import ArgumentParser
 from commands import getoutput as shell
 
+
 class Views(Browser, Tor):
 
  def __init__(self, urllist, visits, min, max):
